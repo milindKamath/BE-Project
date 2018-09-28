@@ -1,0 +1,22 @@
+Pre- requisites:
+
+Windows:
+- Nvidia GPU
+- Visual Studio
+- Nvidia Cuda toolkit
+
+Linux:
+- Nvidia GPU
+- Nvidia Cuda toolkit
+
+Compile:
+nvcc -o _outputfile_ parallel.cu  
+        or
+nvcc -o _outputfile_ -arch=sm50 parallel.cu
+
+Execute:
+./_outputfile_ support_count confidence_count filepath
+
+
+*filepath contains file containing numbers separated by spaces
+*works smoothly upto 10 million lines of numbers in the file
