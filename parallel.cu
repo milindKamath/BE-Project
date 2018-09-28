@@ -1,3 +1,7 @@
+//Author: Milind Kamath
+//Author: Ankit Katariya
+//Author: Gaurav Bhokare
+
 #include <iostream>
 #include <string.h>
 #include <fstream>
